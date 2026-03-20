@@ -33,6 +33,7 @@
             android:layout_height="wrap_content"
             android:text="@string/false_button" />
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -42,14 +43,16 @@
         android:layout_height="wrap_content"
         android:id="@+id/previous_button"
         android:text="@string/previous_button"
-        app:icon="@drawable/arrleft"
+        app:icon="@drawable/arrow_left"
         app:iconGravity="start"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/next_button"
         android:text="@string/next_button"
-        app:icon="@drawable/arrright"
-        app:iconGravity="end" />
+        app:icon="@drawable/arrow_right"
+        app:iconGravity="end"
+        />
+
     </LinearLayout>
 </LinearLayout>
