@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GeoQuiz">
         <activity
+            android:name=".cheat_activity"
+            android:exported="false" />
+        <activity
             android:name=".CheatActivity"
             android:exported="false" />
         <activity
